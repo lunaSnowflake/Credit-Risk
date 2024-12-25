@@ -1,4 +1,9 @@
 # Credit-Risk Analysis with LoanTap
+<div align="left">
+   <a href="https://colab.research.google.com/drive/1ZR31o9dIztLcxZvJPKTgwxL2fw5UfK0b?usp=sharing">
+    <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-colab-small.png" width="10%" /></a>
+    <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
+</div>
 
 ### Analysis
 ---
@@ -93,12 +98,7 @@
   - The analysis has some focus on finding the best metrics for evaluation.
   - There are several model versions that are being compared, and XGBoost consistently seems to yield the best results.
 
-<div align="center">
-   <a href="https://colab.research.google.com/drive/1ZR31o9dIztLcxZvJPKTgwxL2fw5UfK0b?usp=sharing">
-    <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-colab-small.png" width="10%" /></a>
-    <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
-</div>
-<div align="center">
+<div align="left">
   <a href="https://gitpod.io/#https://github.com/lunaSnowflake/Credit-Risk">
     <img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod">
   </a>
