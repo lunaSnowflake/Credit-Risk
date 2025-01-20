@@ -18,12 +18,15 @@
 4. Revolving Line Utilization Rate (Revol_Util): The distribution is nearly normal, with some extreme values possibly due to outlier capping. A peak around 50% suggests moderate credit utilization but those with higher values deserve attention due to higher risk.  Visualization with "eyes" added a playful touch, but its real impact is minimal. The key is the distribution itself.
 
 5. Interest Rate:  The interest rate distribution is slightly left-skewed, implying a higher concentration of lower interest rate loans.  Analysis of interest rates in relation to loan default risk and customer segment is crucial.
+![image](https://github.com/user-attachments/assets/170ce50d-98d8-4f9e-8d3d-8e6fd95924cf)
 
 **Correlation Analysis:**
 
 - Loan amount and installment amount show strong positive correlation, as expected.
 - Annual income is left-skewed, indicating more borrowers in lower income brackets.
 - Loan term moderately correlates with loan amount and interest rates, despite the lack of direct correlation between the latter two.  This could indicate different loan product types affecting these variables.
+
+![image](https://github.com/user-attachments/assets/77dc49b9-716d-4bba-97ed-99f4a4a81493)
 
 **Time Series Analysis of Loan Characteristics (2016):**
 
@@ -41,6 +44,8 @@
    - Loans below 15k initially saw a larger proportion at lower interest rates, but this shifted to moderate/high rates later in the year.
    - 25k-30k bucket shows no clear trend in interest rate over time.
    - Loans over 35k consist primarily of ultra-high and low-moderate interest rates.
+  
+![image](https://github.com/user-attachments/assets/fdabf6bc-a0af-4ff2-9eed-4b717529b29d)
 
 **Business Recommendations:**
 
@@ -51,7 +56,6 @@
 
 ### Data Modelling
 ---
-
 
 1. Feature Selection and Hyperparameter Tuning:
    - Recursive Feature Elimination (RFE) and GridSearchCV were used with Logistic Regression to find the best features and hyperparameters.
