@@ -5,6 +5,8 @@
     <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
 </div>
 
+![image](https://github.com/user-attachments/assets/5618a8ba-8b96-4a41-9985-c5db0affa1ae)
+
 ### Analysis
 ---
 **Customer Credit Health Analysis:**
